@@ -1,7 +1,7 @@
 # Softball League Power Ranking Estimation
 NYCDSA Capstone project <br>
 Koeun Lim (ke.lim.kang@gmail.com) <br>
-Kevin (@gmail.com) <br>
+Kevin Haghi(kevin.haghi@gmail.com@gmail.com) <br>
 
 ## Table of Contents
 [Directory Structure](#Directory-Structure)<br>
