@@ -63,7 +63,7 @@ Rank,College,Year
 49,Texas A&M,2019
 49,Detroit Mercy,2019
 49,UMBC,2019
-1,Florida   ,2015
+1,Florida,2015
 2,Michigan,2015
 3,LSU,2015
 3,Auburn,2015
@@ -76,7 +76,7 @@ Rank,College,Year
 9,Oklahoma,2015
 9,Georgia,2015
 9,ULL,2015
-9,Arizona  ,2015
+9,Arizona,2015
 9,Florida State,2015
 9,Kentucky,2015
 17,Notre Dame,2015
@@ -107,7 +107,7 @@ Rank,College,Year
 33,North Carolina,2015
 33,Lehigh,2015
 33,USC Upstate,2015
-33,Texas  ,2015
+33,Texas,2015
 33,Indiana State,2015
 33,James Madison,2015
 33,BYU,2015
@@ -127,18 +127,18 @@ Rank,College,Year
 49,Dartmouth,2015
 49,Northwestern,2015
 49,Florida A&M,2015
-1,Oklahoma  ,2016
+1,Oklahoma,2016
 2,Auburn,2016
 3,LSU,2016
 3,Florida State,2016
 5,Michigan,2016
 5,Georgia,2016
-7,Alabama  ,2016
+7,Alabama,2016
 7,UCLA,2016
-9,Florida   ,2016
+9,Florida,2016
 9,Utah,2016
-9,Oregon  ,2016
-9,Arizona  ,2016
+9,Oregon,2016
+9,Arizona,2016
 9,ULL,2016
 9,Washington,2016
 9,James Madison,2016
@@ -193,27 +193,27 @@ Rank,College,Year
 49,Alabama State,2016
 1,Oklahoma,2013
 2,Tennessee,2013
-3,Texas  ,2013
+3,Texas,2013
 3,Washington,2013
 5,Michigan,2013
-5,Florida  ,2013
+5,Florida,2013
 7,Nebraska,2013
 7,Arizona State,2013
 9,UAB,2013
 9,Alabama,2013
 9,Missouri,2013
-9,Oregon  ,2013
+9,Oregon,2013
 9,Florida State,2013
 9,Kentucky,2013
 9,ULL,2013
 9,Texas A&M,2013
 17,Arkansas,2013
-17,Baylor ,2013
+17,Baylor,2013
 17,California,2013
 17,LSU,2013
 17,Virginia Tech,2013
-17,Georgia  ,2013
-17,South Carolina  ,2013
+17,Georgia,2013
+17,South Carolina,2013
 17,South Alabama,2013
 17,Wisconsin,2013
 17,Stanford,2013
@@ -260,12 +260,12 @@ Rank,College,Year
 3,Oregon,2014
 3,Baylor,2014
 5,Kentucky,2014
-5,Oklahoma ,2014
+5,Oklahoma,2014
 7,ULL,2014
 7,Florida State,2014
 9,Nebraska,2014
 9,Tennessee,2014
-9,Arizona  ,2014
+9,Arizona,2014
 9,UCLA,2014
 9,Georgia,2014
 9,Washington,2014
@@ -275,13 +275,13 @@ Rank,College,Year
 17,Wisconsin,2014
 17,South Florida,2014
 17,Arizona State,2014
-17,Northwestern  ,2014
+17,Northwestern,2014
 17,UCF,2014
 17,Tulsa,2014
 17,NC State,2014
 17,Notre Dame,2014
 17,DePaul,2014
-17,Texas  ,2014
+17,Texas,2014
 17,LSU,2014
 17,Lipscomb,2014
 17,Texas A&M,2014
@@ -355,7 +355,7 @@ Rank,College,Year
 33,Michigan,2018
 33,Long Beach State,2018
 33,Hofstra,2018
-33,Texas ,2018
+33,Texas,2018
 33,Wisconsin,2018
 33,Tulsa,2018
 33,Oklahoma State,2018
@@ -383,7 +383,7 @@ Rank,College,Year
 49,New Mexico State,2018
 49,UIC,2018
 49,Albany,2018
-1,Oklahoma ,2017
+1,Oklahoma,2017
 2,Florida,2017
 3,Oregon,2017
 3,Washington,2017
