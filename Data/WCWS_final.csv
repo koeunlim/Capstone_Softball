@@ -24,7 +24,7 @@ Rank,College,Year
 17,South Carolina,2019
 17,Mississippi State,2019
 17,Virginia Tech,2019
-17,Louisiana,2019
+17,ULL,2019
 17,Auburn,2019
 17,Georgia,2019
 17,Texas Tech,2019
@@ -32,7 +32,7 @@ Rank,College,Year
 17,Missouri,2019
 17,North Carolina,2019
 33,Notre Dame,2019
-33,Southern Illinois,2019
+33,SIUE,2019
 33,Sam Houston State,2019
 33,Lipscomb,2019
 33,Stanford,2019
@@ -41,14 +41,14 @@ Rank,College,Year
 33,South Florida,2019
 33,Seattle U,2019
 33,Illinois,2019
-33,Southern Missouri State,2019
+33,Southern Miss.,2019
 33,Colorado State,2019
 33,Drake,2019
 33,Louisiana Tech,2019
 33,DePaul,2019
 33,Weber State,2019
 49,CSU Fullerton,2019
-49,St. Francis (Pa),2019
+49,Saint Francis (PA),2019
 49,Monmouth,2019
 49,North Dakota State,2019
 49,Harvard,2019
@@ -80,7 +80,7 @@ Rank,College,Year
 9,Florida State,2015
 9,Kentucky,2015
 17,Notre Dame,2015
-17,Florida Atlantic,2015
+17,Fla. Atlantic,2015
 17,UCF,2015
 17,Utah,2015
 17,Arizona State,2015
@@ -114,14 +114,14 @@ Rank,College,Year
 49,Binghamton,2015
 49,Fresno State,2015
 49,Louisville,2015
-49,Cal State Northridge,2015
+49,CSUN,2015
 49,Fairfield,2015
-49,Central Arkansas,2015
-49,Central Connecticut,2015
+49,Central Ark.,2015
+49,Central Conn. State,2015
 49,Oakland,2015
 49,Chattanooga,2015
 49,Weber State,2015
-49,St. Johns,2015
+49,State John's (NY),2015
 49,Texas Southern,2015
 49,Virginia Tech,2015
 49,Dartmouth,2015
@@ -153,13 +153,13 @@ Rank,College,Year
 17,Ole Miss,2016
 17,Jacksonville State,2016
 17,Tennessee,2016
-17,Cal State Fullerton,2016
+17,CSU Fullerton,2016
 17,Baylor,2016
 17,South Carolina,2016
 17,Kentucky,2016
 17,Oklahoma State,2016
 17,UCF,2016
-33,Florida Atlantic,2016
+33,Fla. Atlantic,2016
 33,Northwestern,2016
 33,Illinois,2016
 33,South Florida,2016
@@ -177,7 +177,7 @@ Rank,College,Year
 33,Miami (OH),2016
 49,Valparaiso,2016
 49,Louisville,2016
-49,LIU Brooklyn,2016
+49,LIU,2016
 49,Princeton,2016
 49,Samford,2016
 49,Weber State,2016
@@ -185,7 +185,7 @@ Rank,College,Year
 49,Tulsa,2016
 49,Oregon State,2016
 49,Marist,2016
-49,Cal State Bakersfield,2016
+49,CSU Bakersfield,2016
 49,Fordham,2016
 49,Florida A&M,2016
 49,Butler,2016
@@ -219,25 +219,25 @@ Rank,College,Year
 17,Stanford,2013
 17,Hofstra,2013
 17,Hawaii,2013
-17,Western Kentucky,2013
+17,WKU,2013
 17,NC State,2013
 17,UCLA,2013
 17,South Florida,2013
 33,Fordham,2013
 33,Arizona,2013
 33,Valparaiso,2013
-33,Central Connecticut,2013
+33,Central Conn. State,2013
 33,San Diego State,2013
 33,Marshall,2013
 33,Houston,2013
 33,Mississippi State,2013
 33,North Carolina,2013
-33,Northern Iowa,2013
+33,UNI,2013
 33,Oregon State,2013
 33,Minnesota,2013
 33,James Madison,2013
-33,South Carolina Upstate,2013
-33,Georgia Southern,2013
+33,USC Upstate,2013
+33,Ga. Southern,2013
 33,Louisville,2013
 49,Hampton,2013
 49,IPFW,2013
@@ -247,12 +247,12 @@ Rank,College,Year
 49,Stony Brook,2013
 49,Tulsa,2013
 49,BYU,2013
-49,Mississippi Valley State,2013
-49,Army,2013
+49,Mississippi Val.,2013
+49,Army West Point,2013
 49,Notre Dame,2013
 49,San Jose State,2013
 49,Northwestern State,2013
-49,Central Michigan,2013
+49,Central Mich.,2013
 49,Penn,2013
 49,Marist,2013
 1,Florida,2014
@@ -287,11 +287,11 @@ Rank,College,Year
 17,Texas A&M,2014
 17,South Alabama,2014
 17,Missouri,2014
-33,Albany,2014
+33,Albany (NY),2014
 33,North Dakota State,2014
 33,San Diego State,2014
 33,South Carolina,2014
-33,Stetson,2014
+33,Statetson,2014
 33,BYU,2014
 33,Houston,2014
 33,UAB,2014
@@ -304,8 +304,8 @@ Rank,College,Year
 33,Kansas,2014
 33,USC Upstate,2014
 49,Bradley,2014
-49,SIU Edwardsville,2014
-49,Charleston Southern,2014
+49,SIUE,2014
+49,Charleston So.,2014
 49,Bryant,2014
 49,Texas Southern,2014
 49,Louisville,2014
@@ -339,10 +339,10 @@ Rank,College,Year
 17,Ohio State,2018
 17,Ohio,2018
 17,Northwestern,2018
-17,Louisiana,2018
+17,ULL,2018
 17,Jacksonville State,2018
 17,Mississippi State,2018
-17,Cal State Fullerton,2018
+17,CSU Fullerton,2018
 17,Wichita State,2018
 17,Missouri,2018
 17,Oregon State,2018
@@ -367,22 +367,22 @@ Rank,College,Year
 33,James Madison,2018
 33,South Florida,2018
 33,McNeese State,2018
-49,Prarie View A&M,2018
+49,Prairie View,2018
 49,Bethune-Cookman,2018
-49,Monmouh,2018
+49,Monmouth,2018
 49,Harvard,2018
 49,Fordham,2018
 49,Kennesaw State,2018
-49,St. Francis (Pa),2018
+49,Saint Francis (PA),2018
 49,Sacramento State,2018
 49,DePaul,2018
 49,Boston U,2018
-49,Middle Tennessee,2018
+49,Middle Tenn.,2018
 49,Boise State,2018
 49,UNC Greensboro,2018
 49,New Mexico State,2018
 49,UIC,2018
-49,Albany,2018
+49,Albany (NY),2018
 1,Oklahoma,2017
 2,Florida,2017
 3,Oregon,2017
@@ -410,7 +410,7 @@ Rank,College,Year
 17,Illinois,2017
 17,Wisconsin,2017
 17,ULL,2017
-17,Cal State Fullerton,2017
+17,CSU Fullerton,2017
 17,Longwood,2017
 17,Texas,2017
 17,Minnesota,2017
@@ -433,7 +433,7 @@ Rank,College,Year
 33,Saint Francis (PA),2017
 49,New Mexico State,2017
 49,Oregon State,2017
-49,East Tennessee State,2017
+49,ETSU,2017
 49,Arkansas,2017
 49,Montana,2017
 49,Mississippi State,2017
@@ -441,9 +441,9 @@ Rank,College,Year
 49,Missouri,2017
 49,Princeton,2017
 49,Fairfield,2017
-49,Southern Illinois,2017
+49,SIUE,2017
 49,Lehigh,2017
 49,Ohio State,2017
 49,Texas Southern,2017
-49,Albany,2017
+49,Albany (NY),2017
 49,Florida A&M,2017
