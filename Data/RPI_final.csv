@@ -71,7 +71,7 @@ RPI_Ranking,College,Conference,Record,Road,Neutral,Home,Non-Div-I,Year
 70,Longwood,Big South,37-22-0,11-14-0,11-3-0,15-5-0,0-0-0,2019
 71,Elon,CAA,33-20-1,9-11-0,5-2-1,19-7-0,0-0-0,2019
 72,New Mexico State,WAC,33-22-0,10-7-0,3-8-0,20-7-0,0-0-0,2019
-73,UNC Greensboro,SoCon,33-23-0,12-6-0,8-6-0,13-11-0,0-0-0,2019
+73,UNCG,SoCon,33-23-0,12-6-0,8-6-0,13-11-0,0-0-0,2019
 74,Grand Canyon,WAC,33-24-0,7-6-0,1-5-0,25-13-0,0-0-0,2019
 75,Kent State,MAC,28-26-0,15-12-0,7-9-0,6-5-0,0-0-0,2019
 76,Coastal Carolina,Sun Belt,39-21-0,7-11-0,7-2-0,25-8-0,0-0-0,2019
@@ -1607,7 +1607,7 @@ RPI_Ranking,College,Conference,Record,Road,Neutral,Home,Non-Div-I,Year
 128,IUPUI,Summit,24-24-0,10-7-0,9-8-0,5-9-0,0-0-0,2014
 129,Buffalo,Mid-American,30-22-0,12-7-0,13-10-0,5-5-0,0-0-0,2014
 130,Akron,Mid-American,27-16-0,3-5-0,13-4-0,11-7-0,0-0-0,2014
-131,UNC Greensboro,Southern,31-26-0,9-8-0,5-2-0,17-16-0,0-0-0,2014
+131,UNCG,Southern,31-26-0,9-8-0,5-2-0,17-16-0,0-0-0,2014
 132,Eastern Ky.,OVC,29-22-0,9-12-0,9-5-0,11-5-0,0-0-0,2014
 133,Northwestern State,Southland,30-22-0,9-10-0,7-6-0,12-5-0,2-1-0,2014
 134,Texas-Arlington,Sun Belt,21-33-0,2-12-0,7-9-0,10-11-0,2-1-0,2014
@@ -1873,7 +1873,7 @@ RPI_Ranking,College,Conference,Record,Road,Neutral,Home,Non-Div-I,Year
 101,Purdue,Big Ten,23-32,10-20,10- 5- 0,3-7,0-0,2013
 102,Coastal Carolina,Big South,37-22,13-10,4- 4- 0,20-8,0-0,2013
 103,Iowa State,Big 12,21-34,0-18,10- 8- 0,11-8,0-0,2013
-104,UNC Greensboro,Southern,38-19,12-8,8- 1- 0,18-10,0-0,2013
+104,UNCG,Southern,38-19,12-8,8- 1- 0,18-10,0-0,2013
 105,Michigan State,Big Ten,24-25,7-8,11- 11- 0,6-6,0-0,2013
 106,BYU,Pacific Coast Softball,33-25,11-4,9- 14- 0,13-7,0-0,2013
 107,Southern Ill.,Missouri Valley,25-27,3-13,8- 8- 0,14-6,0-0,2013
