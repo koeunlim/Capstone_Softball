@@ -53,10 +53,9 @@ These kinds of stats mirror stats that are already available for men’s sports 
 Name of the column|Description|Levels|
 |---|---|---|
 |RPI_Ranking|Final RPI ranking for the year|1~300||
-|WCWS_in|0 (out), 1 (in)||
-|WCWS_Rank|Champion, Finalist, Semi-finalist, Top 6, Top 8, Top 16, Top 32, Top 48, Top64||
+|WCWS_in|Tournament appearance|0 (out), 1 (in)||
+|WCWS_Rank|Tournament final ranking|Champion, Finalist, Semi-finalist, Top 6, Top 8, Top 16, Top 32, Top 48, Top64||
 
-<br>
 ### Input Variables
 Name of the column|Description|Data type|
 |---|---|---|
