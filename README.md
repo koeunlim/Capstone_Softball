@@ -1,5 +1,5 @@
-# Softball League Power Ranking Estimation
-NYCDSA Capstone project <br>
+# Women's College Softball League Performance Projections
+Will my favorite team win this year? How far will it go? TBU <br>
 Koeun Lim (koeunlim@alum.mit.edu) <br>
 Kevin Haghi(kevin.haghi@gmail.com) <br>
 
