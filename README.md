@@ -31,40 +31,58 @@ Kevin Haghi(kevin.haghi@gmail.com) <br>
             ├── WCWSresults
         ├── Cleaned
     ├── ModelPredictions
+        ├── RPI
+        ├── WS64Seeds
+        ├── WSRank
     ├── Figures
     ├── README.md
 ```
 
 
 ## Project Description
+Women’s sports are underrepresented across sports networks, betting, and accessible content.  What is one way to increase interest and intrigue around women’s sports?  Information.  When the sports networks have fascinating stats that describe players, teams, and matchups, it gives newscasters the ability to deliver a narrative to their viewers and hype up women’s sporting events.  It is a way for viewers to get to know players and teams.  And at the end of the day, while we are watching these teams play, we fall in love with these players and vicariously come along with them on their trip.
 
+This project is our way to deliver more attention to women’s sports that is indeed deserved.  
+The perfect sport to test this hypothesis around is NCAA Women’s College Softball.  Baseball, just like Softball, is a stat-driven sport.  We scraped historical softball stats from the past 6 years and generated a model to predict: The Rating Percentage Index (RPI), The NCAA Tournament Field, and projected finish in the tournament.  Included in this package is a dashboard of relavent stat rankings, the team history, and their projections.  
+
+These kinds of stats mirror stats that are already available for men’s sports and are perfect content creators for outlets like: 7Innings podcast, In the circle fastpitch podcast, and ESPN.  Many of the podcasters also spend a good amount of time on ESPN during highly anticipated women’s softball games.  Consequently, better statistical model will proliferate betting on women’s sports.  And being a long-time lover of women’s sports and statistics, there is no better way to give back than by helping in the way we can to lift women’s sports to where they deserve and need to be.  
 
 
 ## Data Description
-name of the column|description|break down|
+### Output Variables
+Name of the column|Description|Levels|
 |---|---|---|
-|Team|the name of the team||
-|Category|category the product|foundation-makeup, lipstick||
-|URL|the original URL gathered with selenium||
-|Price|the price listed in dollars||
-|UserName|nickname of the reviewer||
-|UserID|author ID number of the reviewer||
-|Rating|number of stars|4, 5||
-|Eyecolor|eyecolor of the reviewer|blue, brown, green, gray, hazel||
-|Haircolor|haircolor of the reviewer|blonde, brunette, auburn, black, red, gray||
-|Skintone|skintone of the reviewer|porcelain, fair, light, medium, tan, olive, deep, dark, ebony||
-|SwatchID|swatch ID number of the product||
-|R|red scalar from the swatch's RGB|0~255||
-|G|green scalar from the swatch's RGB|0~255||
-|B|blue scalar from the swatch's RGB|0~255||
+|RPI_Ranking|Final RPI ranking for the year|1~300||
+|WCWS_in|0 (out), 1 (in)||
+|WCWS_Rank|Champion, Finalist, Semi-finalist, Top 6, Top 8, Top 16, Top 32, Top 48, Top64||
 
-Total number of scraped data with Ratings of 4 or 5: 176958<br>
-Total number of unique author IDs: 127859<br>
-Total number of unique reviewer Nicknames: 125759<br>
-Total number of unique foundation products: 191<br>
-Total number of unique lipcolor products: 230<br>
-Total number of unique foundation shades: 3689<br>
-Total number of unique lipcolor shades: 3083<br>
+<br>
+### Input Variables
+Name of the column|Description|Data type|
+|---|---|---|
+|College|Name of the team|Nominal, ID||
+|Conference|Name of the conference|Nominal||
+|Year|Season period|2013~2019||
+|Fielding_Percentage|Percentage of times a defensive player properly handles a batted or thrown ball|Numerical||
+|Scoring|Average score per game|Numerical||
+|WL_Percentage|0|Numerical||
+|Hit_Batters|0|Numerical||
+|Earned_Run_Average|0|Numerical||
+|Triples_per_Game|0|Numerical||
+|Home_Runs_per_game|0|Numerical||
+|Slugging_Percentage|0|Numerical||
+|Double_Plays_per_Game|0|Numerical||
+|On_Base_Percentage|0|Numerical||
+|Stolen_Bases_per_Game|0|Numerical||
+|Strikeout-to-Walk_Ratio|Numerical|0||
+|Batting_Average|0|Numerical||
+|Doubles_per_Game|0|Numerical||
+|Shutouts|0|Numerical||
+|Team_Strikeouts_Per_Seven_Innings|0|Numerical||
+
+Training/Test set: 2013-2018<br>
+Validation set: 2019<br>
+*Year 2020 not available due to COVID19*<br>
 
 
 ### Source
@@ -73,9 +91,8 @@ Product review data were gathered from [Bazaarvoice](https://api.bazaarvoice.com
 
 
 ## Data Visualization
-Foundation RBG by Skintone<br>
-<img src="./figures/Pair_skintone_foundation.png">
-
+Pairplots of all input/output variables<br>
+<img src="./Figures/EDA_Pairplots.png">
 
 
 ## Conclusion
