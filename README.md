@@ -1,5 +1,5 @@
-# Women's College Softball League Performance Projections
-Will my favorite team win this year? How far will it go? TBU <br>
+# NCAA Women's College Softball League Performance Projections
+Will my favorite team win this year? How far will it go? Beta version. <br>
 Koeun Lim (koeunlim@alum.mit.edu) <br>
 Kevin Haghi(kevin.haghi@gmail.com) <br>
 
@@ -15,16 +15,22 @@ Kevin Haghi(kevin.haghi@gmail.com) <br>
 ## Directory Structure
 ```
 .
-├── Softball League Power Ranking Estimation
+├── NCAA Softball Projections
     ├── 01_NCAA_Softball_getStats.ipynb
-    ├── 02_NCAA_Softball_.ipynb
-    ├── 03_NCAA_Softball_.ipynb
-    ├── 04_NCAA_Softball_.ipynb
+    ├── 02_NCAA_Softball_CleanData.ipynb
+    ├── 03_NCAA_Softball_EDA.ipynb
+    ├── 04_NCAA_Softball_Imputation & PCA.ipynb
+    ├── 05_NCAA_Softball_Model1_RPI_LinearRegression.ipynb
+    ├── 06_NCAA_Softball_Model2_WS64Seed_Logistic_famd-stratified.ipynb
+    ├── 07_NCAA_Softball_Model3_WS_Ranking_Logistic_famd-stratified.ipynb
+    ├── 08_NCAA_Softball_Dashboard_tryTabs.ipynb
     ├── Data
-        ├── stats.csv
-        ├── .csv
-        ├── ...
-        ├── .csv
+        ├── Webscraped
+            ├── NCAAstats
+            ├── RPI
+            ├── WCWSresults
+        ├── Cleaned
+    ├── ModelPredictions
     ├── Figures
     ├── README.md
 ```
