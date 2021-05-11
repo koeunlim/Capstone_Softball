@@ -91,7 +91,7 @@ RPI, conference, tournament data were gathered from [NCAA](https://www.ncaa.com/
 
 
 ## EDA & Feature Engineering
-###Pairplots of all input/output variables
+### Pairplots of all input/output variables
 <img src="./Figures/EDA_Pairplots.png">
 <br> Intercorrelations among input features are apparent from the pair plots.
 <br>
