@@ -88,30 +88,52 @@ Validation set: 2019<br>
 Stats data were gathered from [NCAA Statistics](https://stats.ncaa.org/)<br>
 RPI, conference, tournament data were gathered from [NCAA](https://www.ncaa.com/)<br>
 
+
 ## Data Visualization
-Pairplots of all input/output variables<br>
+### EDA & Feature Engineering
+<b>Pairplots of all input/output variables</b><br>
 <img src="./Figures/EDA_Pairplots.png">
+<br>
 
-Table of input variables with high croscorrelations<br>
+<b>Table of input variables with high crosscorrelations</b><br>
 <img src="./Figures/EDA_Table_xcorr.png">
+<br>
+Because input variables (game stats) are highly intercorrelated (|rho| > 0.6), regression/classification models will suffer from multicollinearity, making models difficult to interpret. In order to resolve multicollinearity, factor analysis for mixed data (FAMD) was performed to tranform features into orthogonal space. FAMD was chosen over principal component analysis (PCA) since conferences are categorical variables while other stats are numerical variables.
+<br>
 
-Pairplots of RPI ranking and FAMD of all input variables<br>
+<b>Pairplots of RPI ranking and FAMD of all input variables</b><br>
 <img src="./Figures/FAMD_Pairplots.png">
+<br>
+This pairplots show that FAMD removes most of the correlations between the input variables. Furthermore, Component 0 is the only component that varies systematically with RPI ranking while other component do not vary with RPI. 
+<br>
 
-FAMD Component 0<br>
+<b>FAMD Component 0</b><br>
 <img src="./Figures/FAMD_0_Corr.png">
+<br>
+This bar plot shows which features are positively/negatively correlated with Component 0 by how much. All stats are positively correlated with Component 0 while Hit Batters and Earned Run Average are negatively correlated with Component 0. We can also see which conferences stand out to have strongest positve/negative correlations with Component 0.
 
-Dashboard Outline<br>
+### Modeling & Interactive Visualization
+<b>Dashboard Outline</b><br>
 <img src="./Figures/Dashboard1_Summary.png">
+<br>
+Interactive dashboard was developed using Jupyter dash. User can choose a college team to observe its stats (first tab) compared to the other teams as well as its projections (second and third tabs). 
 
-Dashboard - RPI Projection<br>
+<b>Dashboard - RPI Projection</b><br>
 <img src="./Figures/Dashboard2_RPIprojection.png">
+<br>
+RPI projection model was developed using linear regression with inverse logistic function as the link function. The validation R2 was 0.904. Bootstrap with replacement of N=1000 was performed to generate the distribution of the possible outcomes. The range of the rank projection covers 25% and 75% quantiles.
+<br>
 
-Dashboard - NCAA Tournament Appearance Projection<br>
+<b>Dashboard - NCAA Tournament Appearance Projection</b><br>
 <img src="./Figures/Dashboard3_NCAAtournament.png">
+<br>
+Out of approximately 300 teams, top 64 teams make into the NCAA tournament at the end of the season each year. The model to predict the likelihood of a team's making the top 64 was developed using Stochastic Gradient Descent classifier with logistic function as the link function. The validation accuracy was 88.2% with 0.719 sensitivity and 0.923 specificity where the chance level accuracy is 78.5% for classifying false cases and 21.5% for classifying true cases. Since it is imbalanced data, boostrap of N=1000 was performed with stratified resampling to estimate the probability distribution of the possible outcomes (chance making into the tournament). 
+<br>
 
-Dashboard - NCAA/WS Tournament Performance Projection<br>
+<b>Dashboard - NCAA/WS Tournament Performance Projection</b><br>
 <img src="./Figures/Dashboard4_WStournament.png">
+<br>
+<br>
 
 
 ## Conclusion
